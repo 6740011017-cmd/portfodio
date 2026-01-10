@@ -9,8 +9,6 @@ body {
     background: #fff;
     color: #333;
 }
-
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -34,8 +32,6 @@ nav a.active {
     border-bottom: 2px solid #3f6df6;
     padding-bottom: 5px;
 }
-
-/* Hero */
 .hero {
     display: flex;
     justify-content: space-between;
@@ -52,7 +48,7 @@ nav a.active {
 }
 
 .hero-text span {
-    color: #3f6df6;
+    color: #6389f9;
 }
 
 .hero-text h3 {
@@ -61,14 +57,12 @@ nav a.active {
 }
 
 .btn {
-    background: #3f6df6;
+    background: #6389f9;
     color: white;
     padding: 12px 30px;
     border-radius: 8px;
     text-decoration: none;
 }
-
-/* Image */
 .blob {
     width: 320px;
     height: 320px;
@@ -83,8 +77,6 @@ nav a.active {
     width: 350px;
     border-radius: 100%;
 }
-
-/* Sections */
 .section {
     padding: 80px;
     text-align: center;
@@ -94,8 +86,6 @@ nav a.active {
     font-size: 40px;
     margin-bottom: 50px;
 }
-
-/* Skills */
 .skill-box {
     display: flex;
     justify-content: center;
@@ -108,8 +98,6 @@ nav a.active {
     padding: 15px 30px;
     border-radius: 10px;
 }
-
-/* Work */
 .work-box {
     display: flex;
     justify-content: center;
@@ -123,13 +111,9 @@ nav a.active {
     width: 200px;
     border-radius: 10px;
 }
-
-/* Contact */
 .contact p {
     margin: 10px 0;
 }
-
-/* Footer */
 footer {
     background: #2c3e50;
     color: white;
