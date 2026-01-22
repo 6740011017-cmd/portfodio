@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Portfolio</title>
+    <title>Chutikarn | Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <header class="navbar">
-    <div class="logo">Portfolio</div>
+    <div class="logo">Chutikarn</div>
     <nav>
-        <a href="#home" class="active">Home</a>
+        <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#work">Work</a>
@@ -19,59 +22,98 @@
 </header>
 
 <section id="home" class="hero">
-    <div class="hero-text">
-        <h3>Hi,</h3>
-        <h3>I'm <span>Chutikarn</span></h3>
-        <h3>An Information Technology</h3>
-        <h3>student and photography</h3> 
-        <h3>enthusiast.</h3>
-        <a href="#contact" class="btn">Contact</a>
+    <div class="hero-left">
+        <h1>Hello, I'm <span>Chutikarn</span></h1>
+        <p>IT Student & Photography Lover 📸</p>
+        <a href="#contact" class="btn">Get in touch</a>
     </div>
 
-    <div class="hero-img">
-        <div class="blob">
+    <div class="hero-right">
+        <div class="circle-bg">
             <img src="me.jpg" alt="profile">
         </div>
     </div>
 </section>
 
-<section id="about" class="section">
-    <h2 class="title">About Me</h2>
-    <p>
-        กำลังศึกษาอยู่ชั้นปีที่ 2  
-        สาขาเทคโนโลยีสารสนเทศ  
-        คณะวิทยาศาสตร์และเทคโนโลยีอุตสาหกรรม  
-        มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตสุราษฎร์ธานี
-    </p>
-</section>
-
-<section id="skills" class="section">
-    <h2 class="title">Skills</h2>
-    <div class="skill-box">
-        <div class="skill">การเขียนโปรเเกรมเบื้องต้น</div>
-        <div class="skill">ออกแบบ</div>
-        <div class="skill">การวิเคราะห์ข้อมูล</div>
-        <div class="skill">html</div>
-        <div class="skill">คอมพิวเตอร์เบื้องต้น</div>
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-card">
+        <p>
+            ชื่อเล่นแป๋ม นักศึกษาชั้นปีที่ 2 <br>
+            สาขาเทคโนโลยีสารสนเทศ <br>
+            มหาวิทยาลัยสงขลานครินทร์ <br>
+            วิทยาเขตสุราษฎร์ธานี
+        </p>
     </div>
 </section>
 
-<section id="work" class="section">
-    <h2 class="title">My Work</h2>
-    <div class="work-box">
-        <div class="card">
-            <h3>งาน 15 สัปห์ดา</h3>
-            <p>html&css</p>
-            <a href="https://sites.google.com/psu.ac.th/6740011017/home" target="_blank">ดูงาน</a>
+<section id="skills" class="skills">
+    <h2>My Skills</h2>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>HTML / CSS</span><span>75%</span>
+        </div>
+        <div class="skill-track">
+            <div class="skill-fill html"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>Design</span><span>80%</span>
+        </div>
+        <div class="skill-track">
+            <div class="skill-fill design"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>Data Analysis</span><span>65%</span>
+        </div>
+        <div class="skill-track">
+            <div class="skill-fill data"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>Basic Computer</span><span>85%</span>
+        </div>
+        <div class="skill-track">
+            <div class="skill-fill basic"></div>
         </div>
     </div>
 </section>
 
-<section id="contact" class="section contact">
-    <h2 class="title">Contact</h2>
-    <p>Facebook : ชุติกาญจน์ นาคขาว</p>
-    <p>Email : 6740011017psu.ac.th</p>
-    <p>Phone : 092 613 3011</p>
+<section id="work" class="work">
+    <h2>My Work</h2>
+    <div class="work-card">
+        <h3>งาน 15 สัปดาห์</h3>
+        <p>HTML & CSS</p>
+        <a href="https://sites.google.com/psu.ac.th/6740011017/home" target="_blank">ดูผลงาน</a>
+    </div>
 </section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+
+    <p>
+        📘 Facebook :
+        <a href="https://www.facebook.com/chu.ti.kay.cn.nakh.khaw" target="_blank">
+            ชุติกาญจน์ นาคขาว
+        </a>
+    </p>
+
+    <p>✉️ Email : 6740011017@psu.ac.th</p>
+    <p>📞 Phone : 092-613-3011</p>
+</section>
+
+
+<footer>
+    © 2026 Chutikarn Portfolio
+</footer>
+
 </body>
 </html>
