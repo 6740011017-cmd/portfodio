@@ -170,13 +170,10 @@ nav a:hover{
 @keyframes load{
     from{width:0}
 }
-
-/* Work */
 .work{
     padding:100px 80px;
     text-align:center;
 }
-
 .work-card{
     width:260px;
     margin:auto;
@@ -186,7 +183,6 @@ nav a:hover{
     box-shadow:0 20px 40px rgba(0,0,0,0.1);
     transition:.3s;
 }
-
 .work-card:hover{
     transform:translateY(-10px);
 }
@@ -198,14 +194,10 @@ nav a:hover{
     color:#ff8fab;
     font-weight:600;
 }
-
-
 .contact{
     padding:100px 80px;
     text-align:center;
 }
-
-
 footer{
     padding:25px;
     text-align:center;
